@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Dancing+Script:wght@700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: black;
+    opacity: .7;
+}
+#header{
+    width:100%;
+    height:auto;
+    background-color: #B893C5;
+    color: white;
+    font-size: x-large;
+    font-family: 'Courgette', cursive;
+    padding: 1%;
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#hero_section{
+    display:flex;
+    justify-content: space-around;
+    margin:5%;
+}
+#my_img {
+    border-radius: 50%;
+    border:4px solid #B893C5;
+    overflow: hidden;
+    width:40%;
+    height: 500px;
+}
+#my_des{
+    width:50%;
+    margin-left: 150px;
+    padding: 5%;
+    box-sizing: border-box;
+    font-family:cursive;
+    font-size: x-large;
+}
+#about_section{
+    display:flex;
+    justify-content: space-between;
+}
+#about_des{
+    background-color: #B893C5;
+    margin:2%;
+    margin-left: 8%;
+    width:40%;
+    color: white;
+    padding: 2%;
+    font-size: x-large;
+    font-family: 'Courgette', cursive;
+    line-height: 39px;
+    box-sizing: border-box;
+}
+#about_section a{
+    text-decoration: none;
+    color: black;
+} 
+button{
+    font-size: medium;
+    background-color: white;
+    padding: 2%;
+    border-radius: 2px;
+    border:1px solid #B893C5;
+}
+#aboutImg{
+    margin-right: 2%;
+}
+h2{
+    text-align: center;
+    font-size:2em;
+    font-family: 'Dancing Script', cursive;
+    
+}
+#skills1,#skills2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+.center-align{
+    text-align: center;
+}
+footer{
+    width:100%;
+    background-color: #B893C5;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+#Contact{
+    font-size: x-large;
+}
+#categories{
+    line-height: 1.5;
+    font-family:'Courgette', cursive ;
+}
+.social-links{
+    margin-right: 15%;
+    font-size:40px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin:4%;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
